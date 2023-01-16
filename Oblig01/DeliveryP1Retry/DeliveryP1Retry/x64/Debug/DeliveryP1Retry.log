@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\Magnus Lutro Allison\source\repos\DeliveryP1Retry\DeliveryP1Retry\main.cpp(92,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  DeliveryP1Retry.vcxproj -> C:\Users\Magnus Lutro Allison\source\repos\DeliveryP1Retry\x64\Debug\DeliveryP1Retry.exe
