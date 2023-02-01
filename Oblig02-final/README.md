@@ -15,6 +15,7 @@ fine.
 
 Add a stop method that ends the worker threads
 for example when the task list is empty.
+
 Add a post_timeout() method that runs the
 task argument after a given number of
 milliseconds.
