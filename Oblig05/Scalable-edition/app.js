@@ -52,6 +52,9 @@ app.post('/compile', async function (req, res) {
     case "js": 
       output = await dock("js-runner", ["node", "-e", codeInput])
       break;
+    case "py":
+      output = await dock("py-runner", ["python", "-c", codeInput])
+      break;
     default: 
       output = "Something wrong.."
       break;
